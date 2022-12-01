@@ -7,7 +7,7 @@ console.log("Concatenação e interpolação: ");
 console.log("O valor do produto é " + num);
 console.log('O valor do produto é ' + num);
 console.log(`O valor do produto é ${num}`);
-*/
+
 const num = 14.5;
 console.log("Conversão entre number e string");
 
@@ -28,3 +28,32 @@ console.log(`Tipo de ${num3}: ${typeof num3}`);
 
 const num4 = parseFloat("21.34", 10);
 console.log(`Tipo de ${num4}: ${typeof num4}`);
+
+*/
+
+
+const str = "Maria Silva";
+
+console.log(`const str = "Maria Silva"`)
+
+console.log(`toLowerCase: ${str.toLowerCase()}`);
+console.log(`toUpperCase: ${str.toUpperCase()}`);
+
+console.log(`toUpperCase: ${str.charAt(3)}`)
+
+console.log(`replace: ${str.replace("i", "$")}`);
+console.log(`replace: ${str.replace(/i/g, "$")}`);
+
+console.log(`length: ${str.length}`);
+
+console.log(`indexOf: ${str.indexOf("i")}`);
+console.log(`lastIndexOf: ${str.lastIndexOf("i")}`);
+
+console.log(`substring: ${str.substring(3, 9)}`);
+
+const data = "14/10/2021";
+
+const mes = Number(data.substring(3, 5));
+console.log(mes)
+
+console.log(`trim: ${str.trim()}`);
