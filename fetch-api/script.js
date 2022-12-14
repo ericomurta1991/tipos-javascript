@@ -1,6 +1,6 @@
 const cep = '01001000';
 
-const fethResult = fetch(`https://viacep.com.br/ws/01001000/json/`);
+const fethResult = fetch(`https://viacep.com.br/ws/${cep}/json/`);
 console.log(fethResult);
 
 fethResult
